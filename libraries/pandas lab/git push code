@@ -1,0 +1,20 @@
+git init
+git remote add origin https://github.com/waqas0324-dev/AI_course.git
+agr remote error ay to ya kro
+
+git remote remove origin
+git remote add origin https://github.com/waqas0324-dev/AI_course.git
+git add .
+Yeh sab new aur changed files ko stage karta hai.
+git commit -m "Apna commit message likho"
+git commit -m "Initial commit"
+Step 8: Author Identity Set karo (agar pehle nahi kiya)
+git config --global user.name "Waqas"
+git config --global user.email "waqas0324-dev@gmail.com"
+git push -u origin main
+
+git push
+
+git add .
+git commit -m "Added hello.py"
+git push
