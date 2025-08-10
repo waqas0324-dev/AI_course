@@ -5,6 +5,7 @@ print(len(fruits))  # Kitne items hain
 fruits.append("orange")     # List mein add kare
 fruits.remove("banana")     # Kisi item ko hataaye
 print("mango" in fruits)    # Check if exists
+print('apple'in fruits)
 ## 5 exampels 
 # Example 1: Simple list
 names = ["Ali", "Sara", "Ahmed"]
@@ -24,3 +25,19 @@ print("After removing:", names)
 # Example 5: Check if item exists
 if "Sara" in names:
     print("Sara is in the list")
+
+## advanced list method 
+# .format()
+name = "Waqas"
+age = "21"
+print("students  is {} age {} years old ".format(name, age))
+
+# .join 
+words = ["Waqas", "sagar","love"]
+sentence = " ". join(words)
+print(sentence)
+
+# . split
+text = "apple,banana,mango"
+fruits = text.split(' ,')
+print(fruits)
